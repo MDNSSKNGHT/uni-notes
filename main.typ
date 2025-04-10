@@ -168,7 +168,8 @@
     forall epsilon > 0 : exists P_2 in P[a,b] " such that "
       integral _a^b f <= I(f, P_1) < integral _a^b f + epsilon.
   $ Therefore $
-    integral _a^b f - epsilon < L(f, P_1) <= integral _a^b f <= U(f, P_2) < integral _a^b f + epsilon.
+    integral _a^b f - epsilon < L(f, P_1) <= integral _a^b f <= U(f, P_2) <
+      integral _a^b f + epsilon.
   $
 ]
 
@@ -176,7 +177,8 @@
   Let $a, b in RR$ with $a < b$ and $f: [a, b] -> RR$ an integrable
   function. Then, given $epsilon > 0$,
   $ exists P in P[a, b] :
-      integral _a^b f - epsilon < L(f, P) <= integral _a^b f <= U(f, P) < integral _a^b f + epsilon.
+      integral _a^b f - epsilon < L(f, P) <= integral _a^b f <= U(f, P) <
+        integral _a^b f + epsilon.
   $
 ]
 
